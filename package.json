@@ -1,0 +1,22 @@
+{
+  "name": "git-clone-to-new-repo",
+  "description": "Clone Git repo to new one with no connections to the original",
+  "keywords": [],
+  "author": {
+    "name": "hh lohmann",
+    "email": "hh.lohmann@gmail.com"
+  },
+  "version": "1.0.0",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hh-lohmann/git-clone-to-new-repo.git"
+  },
+  "bugs": "https://github.com/hh-lohmann/git-clone-to-new-repo/issues",
+  "homepage": "https://hh-lohmann.github.io//git-clone-to-new-repo",
+  "type": "module",
+  "exports": {
+    "types": "./types.d.ts",
+    "default": "./index.js"
+  }
+}
