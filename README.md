@@ -58,7 +58,7 @@ Optional: Name for branch with which new repo is created
     '/home/joedoe/backlog/hard-problems'
   )
 
-gitCloneToNewRepo(
+  gitCloneToNewRepo(
     'https://github.com/acme-com/soft-problems',
     'my-guaranteed-solver',
     'dev-branch'

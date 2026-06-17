@@ -13,7 +13,7 @@
     "url": "git+https://github.com/hh-lohmann/git-clone-to-new-repo.git"
   },
   "bugs": "https://github.com/hh-lohmann/git-clone-to-new-repo/issues",
-  "homepage": "https://hh-lohmann.github.io//git-clone-to-new-repo",
+  "homepage": "https://hh-lohmann.github.io/git-clone-to-new-repo",
   "type": "module",
   "exports": {
     "types": "./types.d.ts",
