@@ -15,7 +15,6 @@ const _checkArgs=function(urlOfRepoToClone,nameForNewRepo,branchName){
     if(i===arguments.length) return;
     if(typeof arguments[i]!=='string'||arguments[i]==='') throw TypeError(`${myPrefix}${value} must be a string`);
   })
-  // ...
   return true;
 }
 
@@ -38,7 +37,7 @@ const _checkNewRepoAlreadyExists=function(namePath){
 }
 
 /** Check if repo to clone is reachable
- *  - NB: not necessary "does not exist", may be no connection / rights etc.
+ *  - NB: not necessarily "does not exist", may be no connection / rights etc.
  * @type {(url:string)=>boolean}
  */
 const _checkRepoToClone=function(url){
