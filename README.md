@@ -96,7 +96,7 @@ Pick for your preferred package manager:
 
   * Unlike [degit](https://github.com/Rich-Harris/degit) not meant for automation, therefore far simpler and sometimes faster
 
-  * Cloning is done with "--depth 1" to clone only the current state. Note that this may only have for large repos an effect on the size of what is downloaded since in very small repos the Git tracking may consume more space than the tracked files. Note also that the actual size the new repo will be that after deleting the former Git tracking.
+  * Cloning is done with "--depth 1" to clone only the current state. Note that this may only have for large repos an effect on the size of what is downloaded since in very small repos the Git tracking may consume more space than the tracked files. Note also that the actual size of the new repo will be that after deleting the former Git tracking.
 
 
 ## Source Code
